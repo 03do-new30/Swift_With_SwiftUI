@@ -10,12 +10,12 @@
 		BD0C1EA12BE10EC900B1F5A6 /* MyFirstAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0C1EA02BE10EC900B1F5A6 /* MyFirstAppApp.swift */; };
 		BD0C1EA32BE10EC900B1F5A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0C1EA22BE10EC900B1F5A6 /* ContentView.swift */; };
 		BD0C1EA52BE10ECA00B1F5A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD0C1EA42BE10ECA00B1F5A6 /* Assets.xcassets */; };
-		BD0C1EA82BE10ECA00B1F5A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD0C1EA72BE10ECA00B1F5A6 /* Preview Assets.xcassets */; };
 		BD0C1EB22BE10ECB00B1F5A6 /* MyFirstAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0C1EB12BE10ECB00B1F5A6 /* MyFirstAppTests.swift */; };
 		BD0C1EBC2BE10ECB00B1F5A6 /* MyFirstAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0C1EBB2BE10ECB00B1F5A6 /* MyFirstAppUITests.swift */; };
 		BD0C1EBE2BE10ECB00B1F5A6 /* MyFirstAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0C1EBD2BE10ECB00B1F5A6 /* MyFirstAppUITestsLaunchTests.swift */; };
 		BD2171182BE63B2200E09DF0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BD2171172BE63B2200E09DF0 /* .gitignore */; };
 		BD21711A2BE63D0000E09DF0 /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2171192BE63D0000E09DF0 /* Variable.swift */; };
+		BD21711E2BE63F4F00E09DF0 /* Variable3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21711D2BE63F4F00E09DF0 /* Variable3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,6 @@
 		BD0C1EA02BE10EC900B1F5A6 /* MyFirstAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstAppApp.swift; sourceTree = "<group>"; };
 		BD0C1EA22BE10EC900B1F5A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD0C1EA42BE10ECA00B1F5A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BD0C1EA72BE10ECA00B1F5A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BD0C1EAD2BE10ECB00B1F5A6 /* MyFirstAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD0C1EB12BE10ECB00B1F5A6 /* MyFirstAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstAppTests.swift; sourceTree = "<group>"; };
 		BD0C1EB72BE10ECB00B1F5A6 /* MyFirstAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +47,7 @@
 		BD0C1EBD2BE10ECB00B1F5A6 /* MyFirstAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BD2171172BE63B2200E09DF0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		BD2171192BE63D0000E09DF0 /* Variable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variable.swift; sourceTree = "<group>"; };
+		BD21711D2BE63F4F00E09DF0 /* Variable3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variable3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,17 +103,9 @@
 				BD2171192BE63D0000E09DF0 /* Variable.swift */,
 				BD0C1EA22BE10EC900B1F5A6 /* ContentView.swift */,
 				BD0C1EA42BE10ECA00B1F5A6 /* Assets.xcassets */,
-				BD0C1EA62BE10ECA00B1F5A6 /* Preview Content */,
+				BD21711D2BE63F4F00E09DF0 /* Variable3.swift */,
 			);
 			path = MyFirstApp;
-			sourceTree = "<group>";
-		};
-		BD0C1EA62BE10ECA00B1F5A6 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				BD0C1EA72BE10ECA00B1F5A6 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		BD0C1EB02BE10ECB00B1F5A6 /* MyFirstAppTests */ = {
@@ -237,7 +229,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD0C1EA82BE10ECA00B1F5A6 /* Preview Assets.xcassets in Resources */,
 				BD2171182BE63B2200E09DF0 /* .gitignore in Resources */,
 				BD0C1EA52BE10ECA00B1F5A6 /* Assets.xcassets in Resources */,
 			);
@@ -267,6 +258,7 @@
 				BD0C1EA32BE10EC900B1F5A6 /* ContentView.swift in Sources */,
 				BD21711A2BE63D0000E09DF0 /* Variable.swift in Sources */,
 				BD0C1EA12BE10EC900B1F5A6 /* MyFirstAppApp.swift in Sources */,
+				BD21711E2BE63F4F00E09DF0 /* Variable3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
