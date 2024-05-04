@@ -20,6 +20,7 @@
 		BD2171242BE6433500E09DF0 /* Condition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2171232BE6433500E09DF0 /* Condition.swift */; };
 		BD2171272BE6443D00E09DF0 /* Loop.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2171262BE6443D00E09DF0 /* Loop.swift */; };
 		BD21712A2BE646E300E09DF0 /* MyFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2171292BE646E300E09DF0 /* MyFunction.swift */; };
+		BD21712D2BE648E600E09DF0 /* MyEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21712C2BE648E600E09DF0 /* MyEnum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		BD2171232BE6433500E09DF0 /* Condition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Condition.swift; sourceTree = "<group>"; };
 		BD2171262BE6443D00E09DF0 /* Loop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loop.swift; sourceTree = "<group>"; };
 		BD2171292BE646E300E09DF0 /* MyFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFunction.swift; sourceTree = "<group>"; };
+		BD21712C2BE648E600E09DF0 /* MyEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEnum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		BD0C1E9F2BE10EC900B1F5A6 /* MyFirstApp */ = {
 			isa = PBXGroup;
 			children = (
+				BD21712B2BE648E000E09DF0 /* enum */,
 				BD2171282BE646CE00E09DF0 /* function */,
 				BD2171252BE643F900E09DF0 /* loop */,
 				BD2171222BE6432A00E09DF0 /* if */,
@@ -167,6 +170,14 @@
 				BD2171292BE646E300E09DF0 /* MyFunction.swift */,
 			);
 			path = function;
+			sourceTree = "<group>";
+		};
+		BD21712B2BE648E000E09DF0 /* enum */ = {
+			isa = PBXGroup;
+			children = (
+				BD21712C2BE648E600E09DF0 /* MyEnum.swift */,
+			);
+			path = enum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,6 +315,7 @@
 				BD21711A2BE63D0000E09DF0 /* Variable.swift in Sources */,
 				BD0C1EA12BE10EC900B1F5A6 /* MyFirstAppApp.swift in Sources */,
 				BD2171272BE6443D00E09DF0 /* Loop.swift in Sources */,
+				BD21712D2BE648E600E09DF0 /* MyEnum.swift in Sources */,
 				BD21711E2BE63F4F00E09DF0 /* Variable3.swift in Sources */,
 				BD2171202BE640E800E09DF0 /* Variable4.swift in Sources */,
 				BD21712A2BE646E300E09DF0 /* MyFunction.swift in Sources */,
