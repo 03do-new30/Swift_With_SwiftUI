@@ -101,12 +101,10 @@
 		BD0C1E9F2BE10EC900B1F5A6 /* MyFirstApp */ = {
 			isa = PBXGroup;
 			children = (
+				BD2171212BE642C000E09DF0 /* Variable */,
 				BD0C1EA02BE10EC900B1F5A6 /* MyFirstAppApp.swift */,
-				BD2171192BE63D0000E09DF0 /* Variable.swift */,
 				BD0C1EA22BE10EC900B1F5A6 /* ContentView.swift */,
 				BD0C1EA42BE10ECA00B1F5A6 /* Assets.xcassets */,
-				BD21711D2BE63F4F00E09DF0 /* Variable3.swift */,
-				BD21711F2BE640E800E09DF0 /* Variable4.swift */,
 			);
 			path = MyFirstApp;
 			sourceTree = "<group>";
@@ -126,6 +124,16 @@
 				BD0C1EBD2BE10ECB00B1F5A6 /* MyFirstAppUITestsLaunchTests.swift */,
 			);
 			path = MyFirstAppUITests;
+			sourceTree = "<group>";
+		};
+		BD2171212BE642C000E09DF0 /* Variable */ = {
+			isa = PBXGroup;
+			children = (
+				BD21711D2BE63F4F00E09DF0 /* Variable3.swift */,
+				BD21711F2BE640E800E09DF0 /* Variable4.swift */,
+				BD2171192BE63D0000E09DF0 /* Variable.swift */,
+			);
+			path = Variable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
