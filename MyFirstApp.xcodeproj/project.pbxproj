@@ -22,6 +22,7 @@
 		BD21712A2BE646E300E09DF0 /* MyFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2171292BE646E300E09DF0 /* MyFunction.swift */; };
 		BD21712D2BE648E600E09DF0 /* MyEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21712C2BE648E600E09DF0 /* MyEnum.swift */; };
 		BD21712F2BE64D7100E09DF0 /* Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21712E2BE64D7100E09DF0 /* Practice.swift */; };
+		BD38468D2BEE2CDD00E8C4E9 /* MyOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD38468C2BEE2CDD00E8C4E9 /* MyOptional.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		BD2171292BE646E300E09DF0 /* MyFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFunction.swift; sourceTree = "<group>"; };
 		BD21712C2BE648E600E09DF0 /* MyEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEnum.swift; sourceTree = "<group>"; };
 		BD21712E2BE64D7100E09DF0 /* Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice.swift; sourceTree = "<group>"; };
+		BD38468C2BEE2CDD00E8C4E9 /* MyOptional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOptional.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 		BD0C1E9F2BE10EC900B1F5A6 /* MyFirstApp */ = {
 			isa = PBXGroup;
 			children = (
+				BD38468B2BEE2CD600E8C4E9 /* option */,
 				BD21712B2BE648E000E09DF0 /* enum */,
 				BD2171282BE646CE00E09DF0 /* function */,
 				BD2171252BE643F900E09DF0 /* loop */,
@@ -181,6 +184,14 @@
 				BD21712C2BE648E600E09DF0 /* MyEnum.swift */,
 			);
 			path = enum;
+			sourceTree = "<group>";
+		};
+		BD38468B2BEE2CD600E8C4E9 /* option */ = {
+			isa = PBXGroup;
+			children = (
+				BD38468C2BEE2CDD00E8C4E9 /* MyOptional.swift */,
+			);
+			path = option;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,6 +326,7 @@
 			files = (
 				BD0C1EA32BE10EC900B1F5A6 /* ContentView.swift in Sources */,
 				BD2171242BE6433500E09DF0 /* Condition.swift in Sources */,
+				BD38468D2BEE2CDD00E8C4E9 /* MyOptional.swift in Sources */,
 				BD21711A2BE63D0000E09DF0 /* Variable.swift in Sources */,
 				BD0C1EA12BE10EC900B1F5A6 /* MyFirstAppApp.swift in Sources */,
 				BD2171272BE6443D00E09DF0 /* Loop.swift in Sources */,
